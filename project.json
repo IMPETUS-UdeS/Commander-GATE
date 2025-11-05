@@ -1,0 +1,1608 @@
+{
+  "schema": "2.0",
+  "material_db_path": "F:/Developpment/UdeS/3it/CTCommander/MaterialDB/LeadVacuum.db",
+  "root": {
+    "name": "gate",
+    "node_type": "root",
+    "meta": {},
+    "parameters": [
+      {
+        "label": "Material Database",
+        "values": []
+      }
+    ],
+    "children": [
+      {
+        "name": "physics",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [
+          {
+            "label": "Physics List",
+            "values": [
+              "FTFQGSP_BERT"
+            ]
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "digitizer",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [
+          {
+            "label": "CoincidenceSorter: Input Singles collection",
+            "values": [
+              "Singles"
+            ]
+          },
+          {
+            "label": "Insert module",
+            "values": [
+              "energyResolution"
+            ]
+          },
+          {
+            "label": "Insert module",
+            "values": [
+              "energyResolution"
+            ]
+          },
+          {
+            "label": "Readout depth",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Insert module",
+            "values": [
+              "energyResolution"
+            ]
+          },
+          {
+            "label": "Energy FWHM",
+            "values": [
+              0.26
+            ]
+          },
+          {
+            "label": "Reference energy",
+            "values": [
+              511,
+              "keV"
+            ]
+          },
+          {
+            "label": "Selected module (for UI)",
+            "values": [
+              "readout"
+            ]
+          },
+          {
+            "label": "Readout policy",
+            "values": [
+              "TakeEnergyWinner"
+            ]
+          },
+          {
+            "label": "Depth (winner policy)",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Readout volume name (alternative to depth)",
+            "values": [
+              ""
+            ]
+          },
+          {
+            "label": "Force readout volume for energy centroid",
+            "values": [
+              false
+            ]
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "distributions",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [],
+        "children": [
+          {
+            "name": "jkjkkjjk",
+            "node_type": "distributions",
+            "meta": {},
+            "parameters": [
+              {
+                "label": "Distribution name",
+                "values": [
+                  "jkjkkjjk"
+                ]
+              },
+              {
+                "label": "Distribution type",
+                "values": [
+                  "Flat"
+                ]
+              },
+              {
+                "label": "min",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "max",
+                "values": [
+                  1
+                ]
+              },
+              {
+                "label": "amplitude",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "source",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [],
+        "children": [
+          {
+            "name": "sdadsa",
+            "node_type": "source",
+            "meta": {
+              "system_level": "level1",
+              "source_type": "gps",
+              "distribution_type": "gps"
+            },
+            "parameters": [
+              {
+                "label": "Activity",
+                "values": [
+                  0.0,
+                  "Bq"
+                ],
+                "unit": "eV"
+              },
+              {
+                "label": "Intensity (priority)",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Particle",
+                "values": [
+                  "gamma"
+                ]
+              },
+              {
+                "label": "Ion(Z,A,Q,E_keV)",
+                "values": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "label": "Forced Unstable",
+                "values": [
+                  false
+                ]
+              },
+              {
+                "label": "Half-life",
+                "values": [
+                  0,
+                  "s"
+                ],
+                "unit": "s"
+              },
+              {
+                "label": "Energy distribution",
+                "values": [
+                  "Mono"
+                ]
+              },
+              {
+                "label": "Mono energy",
+                "values": [
+                  0,
+                  "keV"
+                ],
+                "unit": "KeV"
+              },
+              {
+                "label": "UserSpectrum file",
+                "values": [
+                  null
+                ]
+              },
+              {
+                "label": "Per-source Intensity",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Angular type",
+                "values": [
+                  "iso"
+                ]
+              },
+              {
+                "label": "min theta",
+                "values": [
+                  0,
+                  "deg"
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "max theta",
+                "values": [
+                  0,
+                  "deg"
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "min phi",
+                "values": [
+                  0,
+                  "deg"
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "max phi",
+                "values": [
+                  0,
+                  "deg"
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Domain",
+                "values": [
+                  "Point"
+                ]
+              },
+              {
+                "label": "Shape",
+                "values": [
+                  "Sphere"
+                ]
+              },
+              {
+                "label": "radius",
+                "values": [
+                  0,
+                  "mm"
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "half z",
+                "values": [
+                  0,
+                  "mm"
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "half x",
+                "values": [
+                  0,
+                  "mm"
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "half y",
+                "values": [
+                  0,
+                  "mm"
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "centre (x,y,z)",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Attach to volume",
+                "values": [
+                  ""
+                ]
+              },
+              {
+                "label": "Confine (vol_phys)",
+                "values": [
+                  ""
+                ]
+              },
+              {
+                "label": "Special type",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Accolinearity",
+                "values": [
+                  false
+                ]
+              },
+              {
+                "label": "Accolinearity FWHM",
+                "values": [
+                  0,
+                  "deg"
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Visualize (count, color, px)",
+                "values": [
+                  0,
+                  "yellow",
+                  2
+                ]
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "output",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [
+          {
+            "label": "[ASCII Output]",
+            "values": [
+              ""
+            ]
+          },
+          {
+            "label": "Enable ASCII output",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "ASCII output filename",
+            "values": [
+              ""
+            ]
+          },
+          {
+            "label": "Write hits file",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Write singles file",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Write coincidences file",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Digitizer name (for singles tree flag)",
+            "values": [
+              ""
+            ]
+          },
+          {
+            "label": "Output for singles (resolved at export)",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Coincidence mask (0/1 \u2026)",
+            "values": [
+              "000000"
+            ]
+          },
+          {
+            "label": "Single mask (0/1 \u2026)",
+            "values": [
+              "0000"
+            ]
+          },
+          {
+            "label": "File size limit (bytes)",
+            "values": [
+              2000000000
+            ]
+          },
+          {
+            "label": "[ROOT Output]",
+            "values": [
+              ""
+            ]
+          },
+          {
+            "label": "Enable ROOT ouput",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "ROOT output filename",
+            "values": [
+              ""
+            ]
+          },
+          {
+            "label": "Generate Hit tree",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Generate Singles tree",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Generate Coincidences tree",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Generate Ntuple tree",
+            "values": [
+              1
+            ]
+          },
+          {
+            "label": "Adder Tree",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Readout Tree",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Spblurring Tree",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Blurring Tree",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Threshholder Tree",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Upholder Tree",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "[ROOT Online Plotter]",
+            "values": [
+              ""
+            ]
+          },
+          {
+            "label": "Enable ROOT online plotter",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Show Plotter",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Amount of Columns",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Plot Height",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Plot Width",
+            "values": [
+              0
+            ]
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "acquisition",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [
+          {
+            "label": "Total primaries (split over time)",
+            "values": [
+              "NaN"
+            ]
+          },
+          {
+            "label": "Primaries per slice (weight by duration)",
+            "values": [
+              "NaN"
+            ]
+          },
+          {
+            "label": "Primaries per slice (from file)",
+            "values": [
+              null
+            ]
+          },
+          {
+            "label": "Time slice",
+            "values": [
+              1
+            ],
+            "unit": "s"
+          },
+          {
+            "label": "Time start",
+            "values": [
+              0
+            ],
+            "unit": "s"
+          },
+          {
+            "label": "Time stop",
+            "values": [
+              2
+            ],
+            "unit": "s"
+          },
+          {
+            "label": "Read slice times (file)",
+            "values": [
+              null
+            ]
+          },
+          {
+            "label": "Add slice (value, unit)",
+            "values": [
+              0,
+              "s"
+            ],
+            "unit": "s"
+          },
+          {
+            "label": "Seed mode",
+            "values": [
+              "default"
+            ]
+          },
+          {
+            "label": "Manual seed (0..900000000)",
+            "values": [
+              0
+            ]
+          },
+          {
+            "label": "Random engine",
+            "values": [
+              "JamesRandom"
+            ]
+          },
+          {
+            "label": "Reset engine from seed file",
+            "values": [
+              null
+            ]
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "verbose",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [],
+        "children": []
+      },
+      {
+        "name": "vis",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [
+          {
+            "label": "Viewer",
+            "values": [
+              2
+            ]
+          },
+          {
+            "label": "Pan to",
+            "values": [
+              0,
+              0
+            ]
+          },
+          {
+            "label": "Zoom",
+            "values": [
+              0.5
+            ]
+          },
+          {
+            "label": "Viewing Angle",
+            "values": [
+              90,
+              90
+            ]
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "world",
+        "node_type": "root",
+        "meta": {},
+        "parameters": [
+          {
+            "label": "X Length",
+            "values": [
+              0
+            ],
+            "unit": "cm"
+          },
+          {
+            "label": "Y Length",
+            "values": [
+              0
+            ],
+            "unit": "cm"
+          },
+          {
+            "label": "Z Length",
+            "values": [
+              0
+            ],
+            "unit": "cm"
+          },
+          {
+            "label": "Material",
+            "values": []
+          },
+          {
+            "label": "SetVisible",
+            "values": [
+              0
+            ]
+          }
+        ],
+        "children": [
+          {
+            "name": "gdgdfgdfg",
+            "node_type": "world",
+            "meta": {
+              "role": "Scanner",
+              "system_type": "scanner",
+              "distribution_type": "box",
+              "shape": "box"
+            },
+            "parameters": [
+              {
+                "label": "X Length",
+                "values": [
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Y Length",
+                "values": [
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Z Length",
+                "values": [
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Material",
+                "values": [
+                  null
+                ]
+              },
+              {
+                "label": "Set Translation",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Phi Angle (XY Plane)",
+                "values": [
+                  0
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Theta Angle (Z Axis)",
+                "values": [
+                  0
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Translation Magnitude",
+                "values": [
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Rotation Axis",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Rotation Angle",
+                "values": [
+                  0
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Axis",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Align To Axis",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Enable Translational Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Translation Speed",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm/s"
+              },
+              {
+                "label": "Enable Rotational Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Rotation Speed",
+                "values": [
+                  0
+                ],
+                "unit": "rad/s"
+              },
+              {
+                "label": "Moving Rotation Axis",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Enable Orbiting Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Orbiting Speed",
+                "values": [
+                  0
+                ],
+                "unit": "rad/s"
+              },
+              {
+                "label": "Orbiting Point 1",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Orbiting Point 2",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Enable Wobbling Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Wobbling Amplitude",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Wobbling Frequency",
+                "values": [
+                  0
+                ],
+                "unit": "Hz"
+              },
+              {
+                "label": "Wobbling Period",
+                "values": [
+                  0
+                ],
+                "unit": "s"
+              },
+              {
+                "label": "Wobbling Phase",
+                "values": [
+                  0
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Enable Eccentric Rotation",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Eccentric Rot Shift",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Eccentric Rot Speed",
+                "values": [
+                  0
+                ],
+                "unit": "rad/s"
+              },
+              {
+                "label": "Enable Generic Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Generic Movement Filepath",
+                "values": []
+              },
+              {
+                "label": "Enable Generic Repeater Move",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Generic Repeater Filepath",
+                "values": []
+              },
+              {
+                "label": "Use Relative Translation",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Color",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "IsVisible",
+                "values": [
+                  1
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Hide Daughters",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Line Style",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Line Width",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Force Solid",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Force Wireframe",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              }
+            ],
+            "children": [
+              {
+                "name": "mmmmmm",
+                "node_type": "world",
+                "meta": {
+                  "distribution_type": "box"
+                },
+                "parameters": [
+                  {
+                    "label": "X Length",
+                    "values": [
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Y Length",
+                    "values": [
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Z Length",
+                    "values": [
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Material",
+                    "values": [
+                      null
+                    ]
+                  },
+                  {
+                    "label": "Set Translation",
+                    "values": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Phi Angle (XY Plane)",
+                    "values": [
+                      0
+                    ],
+                    "unit": "deg"
+                  },
+                  {
+                    "label": "Theta Angle (Z Axis)",
+                    "values": [
+                      0
+                    ],
+                    "unit": "deg"
+                  },
+                  {
+                    "label": "Translation Magnitude",
+                    "values": [
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Rotation Axis",
+                    "values": [
+                      " - "
+                    ]
+                  },
+                  {
+                    "label": "Rotation Angle",
+                    "values": [
+                      0
+                    ],
+                    "unit": "deg"
+                  },
+                  {
+                    "label": "Axis",
+                    "values": [
+                      " - "
+                    ]
+                  },
+                  {
+                    "label": "Align To Axis",
+                    "values": [
+                      " - "
+                    ]
+                  },
+                  {
+                    "label": "Enable Translational Movement",
+                    "values": [
+                      0
+                    ]
+                  },
+                  {
+                    "label": "Translation Speed",
+                    "values": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "unit": "cm/s"
+                  },
+                  {
+                    "label": "Enable Rotational Movement",
+                    "values": [
+                      0
+                    ]
+                  },
+                  {
+                    "label": "Rotation Speed",
+                    "values": [
+                      0
+                    ],
+                    "unit": "rad/s"
+                  },
+                  {
+                    "label": "Moving Rotation Axis",
+                    "values": [
+                      " - "
+                    ]
+                  },
+                  {
+                    "label": "Enable Orbiting Movement",
+                    "values": [
+                      0
+                    ]
+                  },
+                  {
+                    "label": "Orbiting Speed",
+                    "values": [
+                      0
+                    ],
+                    "unit": "rad/s"
+                  },
+                  {
+                    "label": "Orbiting Point 1",
+                    "values": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Orbiting Point 2",
+                    "values": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Enable Wobbling Movement",
+                    "values": [
+                      0
+                    ]
+                  },
+                  {
+                    "label": "Wobbling Amplitude",
+                    "values": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Wobbling Frequency",
+                    "values": [
+                      0
+                    ],
+                    "unit": "Hz"
+                  },
+                  {
+                    "label": "Wobbling Period",
+                    "values": [
+                      0
+                    ],
+                    "unit": "s"
+                  },
+                  {
+                    "label": "Wobbling Phase",
+                    "values": [
+                      0
+                    ],
+                    "unit": "deg"
+                  },
+                  {
+                    "label": "Enable Eccentric Rotation",
+                    "values": [
+                      0
+                    ]
+                  },
+                  {
+                    "label": "Eccentric Rot Shift",
+                    "values": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "unit": "cm"
+                  },
+                  {
+                    "label": "Eccentric Rot Speed",
+                    "values": [
+                      0
+                    ],
+                    "unit": "rad/s"
+                  },
+                  {
+                    "label": "Enable Generic Movement",
+                    "values": [
+                      0
+                    ]
+                  },
+                  {
+                    "label": "Generic Movement Filepath",
+                    "values": []
+                  },
+                  {
+                    "label": "Enable Generic Repeater Move",
+                    "values": [
+                      0
+                    ]
+                  },
+                  {
+                    "label": "Generic Repeater Filepath",
+                    "values": []
+                  },
+                  {
+                    "label": "Use Relative Translation",
+                    "values": [
+                      0
+                    ]
+                  },
+                  {
+                    "label": "Color",
+                    "values": [
+                      0
+                    ],
+                    "unit": "exclude"
+                  },
+                  {
+                    "label": "IsVisible",
+                    "values": [
+                      1
+                    ],
+                    "unit": "exclude"
+                  },
+                  {
+                    "label": "Hide Daughters",
+                    "values": [
+                      0
+                    ],
+                    "unit": "exclude"
+                  },
+                  {
+                    "label": "Line Style",
+                    "values": [
+                      0
+                    ],
+                    "unit": "exclude"
+                  },
+                  {
+                    "label": "Line Width",
+                    "values": [
+                      0
+                    ],
+                    "unit": "exclude"
+                  },
+                  {
+                    "label": "Force Solid",
+                    "values": [
+                      0
+                    ],
+                    "unit": "exclude"
+                  },
+                  {
+                    "label": "Force Wireframe",
+                    "values": [
+                      0
+                    ],
+                    "unit": "exclude"
+                  }
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "fdsfdsfs",
+            "node_type": "world",
+            "meta": {
+              "role": "Phantom",
+              "distribution_type": "box",
+              "shape": "box"
+            },
+            "parameters": [
+              {
+                "label": "X Length",
+                "values": [
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Y Length",
+                "values": [
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Z Length",
+                "values": [
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Material",
+                "values": [
+                  null
+                ]
+              },
+              {
+                "label": "Set Translation",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Phi Angle (XY Plane)",
+                "values": [
+                  0
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Theta Angle (Z Axis)",
+                "values": [
+                  0
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Translation Magnitude",
+                "values": [
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Rotation Axis",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Rotation Angle",
+                "values": [
+                  0
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Axis",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Align To Axis",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Enable Translational Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Translation Speed",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm/s"
+              },
+              {
+                "label": "Enable Rotational Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Rotation Speed",
+                "values": [
+                  0
+                ],
+                "unit": "rad/s"
+              },
+              {
+                "label": "Moving Rotation Axis",
+                "values": [
+                  " - "
+                ]
+              },
+              {
+                "label": "Enable Orbiting Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Orbiting Speed",
+                "values": [
+                  0
+                ],
+                "unit": "rad/s"
+              },
+              {
+                "label": "Orbiting Point 1",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Orbiting Point 2",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Enable Wobbling Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Wobbling Amplitude",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Wobbling Frequency",
+                "values": [
+                  0
+                ],
+                "unit": "Hz"
+              },
+              {
+                "label": "Wobbling Period",
+                "values": [
+                  0
+                ],
+                "unit": "s"
+              },
+              {
+                "label": "Wobbling Phase",
+                "values": [
+                  0
+                ],
+                "unit": "deg"
+              },
+              {
+                "label": "Enable Eccentric Rotation",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Eccentric Rot Shift",
+                "values": [
+                  0,
+                  0,
+                  0
+                ],
+                "unit": "cm"
+              },
+              {
+                "label": "Eccentric Rot Speed",
+                "values": [
+                  0
+                ],
+                "unit": "rad/s"
+              },
+              {
+                "label": "Enable Generic Movement",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Generic Movement Filepath",
+                "values": []
+              },
+              {
+                "label": "Enable Generic Repeater Move",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Generic Repeater Filepath",
+                "values": []
+              },
+              {
+                "label": "Use Relative Translation",
+                "values": [
+                  0
+                ]
+              },
+              {
+                "label": "Color",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "IsVisible",
+                "values": [
+                  1
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Hide Daughters",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Line Style",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Line Width",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Force Solid",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              },
+              {
+                "label": "Force Wireframe",
+                "values": [
+                  0
+                ],
+                "unit": "exclude"
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}
