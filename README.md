@@ -1,6 +1,8 @@
 # Commander
 v.0.1
 
+Video demonstration: https://drive.google.com/file/d/1Ds7zqAlJ2sx9urdMYQNlb15su59btKz4/view?usp=sharing
+
 A desktop toolkit for composing, inspecting, and exporting **GATE** simulation projects through a clean, PyQt6-based UI. Commander lets you build detector geometries, sources, physics/digitizer chains, and output pipelines using a structured **node tree** with rich parameter editors. It targets day‑to‑day productivity (quick iterations, presets, live validation) while staying faithful to GATE macro semantics.
 
 ---
@@ -337,5 +339,6 @@ When in doubt, Commander prefers graceful fallbacks to 9.2 semantics.
 ---
 
 ## License
+
 
 See LICENSE file in repository
